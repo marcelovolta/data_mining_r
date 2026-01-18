@@ -47,3 +47,13 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# renv: entorno local y cache
+renv/library/
+renv/python/
+renv/staging/
+renv/local/
+renv/tmp/
+
+# cache global de renv (por si alguien lo inicializa dentro del proyecto)
+.renv/
